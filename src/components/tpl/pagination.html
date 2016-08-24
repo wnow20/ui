@@ -1,0 +1,7 @@
+<div class="pagination">
+    <ul>
+        <li><a class="ui button" v-on:click="prev()" v-bind:class="{'disabled': isFirst }">Prev</a></li>
+        <li v-for="page in pages"><a :href="page.url" v-on:click="go(page.value)" class="ui button" :class="{'active': page.active}">{{page.name}}</a></li>
+        <li><a class="ui button" v-on:click="next()" v-bind:class="{'disabled': isLast }">Next</a></li>
+    </ul>
+</div>'
