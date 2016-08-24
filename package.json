@@ -1,0 +1,50 @@
+{
+  "name": "zoom",
+  "version": "0.0.1",
+  "description": "A simple UI framework build from Vue.js",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnow20/zoom.git"
+  },
+  "keywords": [
+    "UI",
+    "framwork",
+    "Vue.js"
+  ],
+  "author": "wnow20",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wnow20/zoom/issues"
+  },
+  "homepage": "https://github.com/wnow20/zoom#readme",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.11.6",
+    "css-loader": "^0.23.1",
+    "font-awesome": "^4.6.3",
+    "html-loader": "^0.4.3",
+    "jquery": "^3.1.0",
+    "semantic-ui": "^2.2.2",
+    "vue-hot-reload-api": "^2.0.6",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^8.5.3",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "vue": "^1.0.26"
+  }
+}
